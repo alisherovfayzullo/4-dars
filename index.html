@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="flex" id="gameZone">
+      <div class="flex gap-5">
+        <img
+          class="hand"
+          src="https://rock-paper-scissors-selfmade.netlify.app/img/paper.svg"
+          alt="paper"
+        />
+        <img
+          class="hand"
+          src="https://rock-paper-scissors-selfmade.netlify.app/img/scissors.svg"
+          alt="scissors"
+        />
+        <img
+          class="hand"
+          src="https://rock-paper-scissors-selfmade.netlify.app/img/rock.svg"
+          alt="rock"
+        />
+      </div>
+    </section>
+    <section class="flex" id="processZone">
+      <img id="player" src="./img/hand-load.svg" alt="player" />
+      <img id="ai" src="./img/hand-load.svg" alt="ai" />
+    </section>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
