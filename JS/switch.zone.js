@@ -5,7 +5,7 @@ export function switchZone(boolean) {
     elGameZone.classList.add("hidden");
     elProcessZone.classList.remove("hidden");
   } else {
-    elProcessZone.classList.remove("hidden");
-    elGameZone.classList.add("hidden");
+    elGameZone.classList.remove("hidden");
+    elProcessZone.classList.add("hidden");
   }
 }
